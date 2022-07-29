@@ -1,0 +1,109 @@
+
+.container{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1440px;
+    height: 630px;
+    }
+
+.logo{
+    width: 145px;
+    padding-left: 4%;
+    
+}
+
+.mockups{
+    width: 38%;
+    padding-left: 4%;
+    padding-right: 5em;
+    padding-bottom: 0em;
+    float: left;
+    }
+
+
+h1{
+    color: white;
+    font-size: 30px;
+font-family: 'Poppins', sans-serif;
+    }
+
+p{
+    color: rgb(217, 214, 214);
+    font-size: 13px;
+font-family:'Open Sans', sans-serif;
+    }
+
+button{
+    color:  hsl(257, 40%, 49%);
+    width: 10%;
+    height: 40px;
+    background-color: white;
+    border: 0rem;
+    border-radius: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    }
+button:hover {
+        color: white;
+        background-color:  hsl(300, 69%, 71%);
+        }   
+    
+
+
+.facebook{
+    fill: white;
+    width: 13px;
+    height: 15px;
+    border: 2px solid;
+        border-radius: 20px;
+        border-color: white;
+    padding: 6px;
+    
+
+    }
+    
+.twitter{
+    fill: white;
+    width: 15px;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: white;
+    padding: 6px;
+    height: 13;
+    }
+
+.instagram{
+        fill: white;
+        
+        border: 2px solid;
+        border-radius: 17px;
+        border-color: white;
+        padding: 6px;
+        height: 14px;
+        }
+
+.icon{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+    cursor: pointer;
+    padding-right: 26em;
+}
+     
+
+svg:hover {
+          fill:  hsl(300, 84%, 54%);
+          border-color:  hsl(300, 84%, 54%);
+            }   
+
+.footer{
+    margin-right: 30em;
+       padding: 0;
+       padding-left: 0%;
+       }
+    
+.attribution {font-size: 11px;text-align: center;}
+.attribution a { color: hsl(228, 90%, 35%); }
